@@ -16,17 +16,17 @@ function SearchBar() {
         pl: 2,
         boxShadow: "none",
         mr: { sm: 5 },
-    }}
+      }}
     >
-    <input 
-    className="search-bar"
-    placeholder="Search..."
-    value=""
-    onChange={() => {}}
-    />
-    <IconButton type="submit" sx={{ p:'10px', color:'red'}} >
+      <input
+        className="search-bar"
+        placeholder="Search..."
+        value=""
+        onChange={() => {}}
+      />
+      <IconButton type="submit" sx={{ p: "10px", color: "red" }}>
         <Search />
-    </IconButton>
+      </IconButton>
     </Paper>
   );
 }
